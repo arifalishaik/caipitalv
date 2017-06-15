@@ -1,0 +1,83 @@
+/** {
+   outline: 1px solid red !important;
+}
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 460px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-page{
+    text-align: center;
+    padding-top: 230px;
+}
+
+.main-page #Capital{
+    color: #39CCCC;
+}
+
+
+
+
+ul li a:hover{
+
+    font-size: 1.2em;
+    font-weight: bold;
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
