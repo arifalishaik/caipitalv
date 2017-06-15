@@ -50,7 +50,7 @@ html {
 
 .main-page{
     text-align: center;
-    padding-top: 230px;
+    padding-top: 200px;
 }
 
 .main-page #Capital{
@@ -58,12 +58,17 @@ html {
 }
 
 
+.main-page h1 a{
+      text-decoration: none;
+      color:black;
+}
 
 
 ul li a:hover{
 
     font-size: 1.2em;
     font-weight: bold;
+
        }
 
 

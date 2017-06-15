@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+
 html {
   font-size: 14px;
 }
@@ -19,17 +20,83 @@ html {
   }
 }
 
+
 @include media-breakpoint-up(md) {
   html {
     font-size: 20px;
   }
 }
 
+
 @include media-breakpoint-up(lg) {
   html {
     font-size: 28px;
   }
 }
+
+
+@media (min-width: 1200px) {
+    .about-page{
+        max-width: 450px;
+        margin: auto;
+
+    }
+}
+
+
+
+
+
+.about-page{
+    text-align: center;
+
+}
+
+
+.about-page #Capital{
+    color: #39CCCC;
+}
+
+
+.about-page h1 a{
+      text-decoration: none;
+      color:black;
+}
+
+
+.about-page ul li a:hover{
+
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+
+.about-section{
+    color: #AAAAAA;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.8em;
+    color: #858585;
+    font-size: 1.5rem;
+    margin-top: 120px;
+
+}
+
+
+.about-section h1{
+    text-align: center;
+}
+
+.about-section  h1:hover, p:hover{
+    color: black;
+}
+
+
+
+
+
+
+
 
 .hvr-grow {
   display: inline-block;
@@ -46,63 +113,3 @@ html {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-
-.about-page{
-    text-align: center;
-    margin: 0px;
-}
-
-.about-page #Capital{
-    color: #39CCCC;
-}
-
-
-.about-page a{
-    color: #AAAAAA;
-    text-decoration: none;
-    padding-left: 0;
-    font-size: 1rem;
-       }
-
-
-.about-page a:hover{
-    color: #39CCCC;
-}
-
-.about-page li:after{
-
-    content: '/' ;
-    padding:0 3px;
-    color: #39CCCC;
-}
-
-
- .about-page li:last-child:after {
-    content: none;
- }
-
-
-.about-section{
-    color: #AAAAAA;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.8em;
-    color: #858585;
-    font-size: 1.5rem;
-
-
-}
-
-.about-section h1{
-    text-align: center;
-    padding-top: 50px;
-}
-
-.about-section  h1:hover, p:hover{
-    color: black;
-}
-
-
-
-
-
-
