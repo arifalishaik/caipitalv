@@ -1,7 +1,7 @@
 /* NAVIGATION BAR */
 
 .container{
-  max-width: 80%;
+
 }
 .portfolio-page{
     text-align: center;
@@ -13,8 +13,6 @@
 }
 
 .portfolio-page nav{
-
-
     max-width: 400px;
 }
 
@@ -90,6 +88,7 @@ hr{
 .team-members {
   justify-content: center;
   margin-top: 100px;
+  margin: 50px;
 }
 
 .team-members h1{
@@ -118,11 +117,13 @@ hr{
   margin-bottom: 200px;
 }
 
-.team-members .row2 {
-  margin-top: 5rem;
+.team-members {
+  margin-top: 10rem;
 }
 
-
+.row2{
+  margin-top: 2.5rem;
+}
 
 
 
