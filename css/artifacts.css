@@ -11,8 +11,6 @@
 }
 
 .portfolio-page nav{
-
-
     max-width: 400px;
 }
 
@@ -87,20 +85,17 @@ hr{
 
 /* Team Members  outline: 1px solid red !important;*/
 .team-members {
-  justify-content: center;
-  margin-top: 100px;
-  margin-left: 35px;
+
 }
 
-.team-members h1{
-  margin-top:30px;
-  margin-bottom: 45px;
-  padding: 0px;
-  color: #AAAAAA;
+.team-members h3,p{
+  justify-content: center;
+
 }
 
 .team-members p{
   color: #7FDBFF;
+
 }
 .team-members h3 a{
   text-decoration: none;
@@ -119,6 +114,12 @@ hr{
   margin-bottom: 200px;
 }
 
+.inside{
+
+
+  margin:0px;
+
+}
 
 
 
