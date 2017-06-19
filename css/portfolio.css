@@ -1,0 +1,192 @@
+/* NAVIGATION BAR */
+
+.container{
+  max-width: 80%;
+}
+.portfolio-page{
+    text-align: center;
+  }
+
+
+.portfolio-page #Capital{
+    color: #39CCCC;
+}
+
+.portfolio-page nav{
+
+
+    max-width: 400px;
+}
+
+.portfolio-page h1 a{
+      text-decoration: none;
+      color:black;
+}
+
+
+.portfolio-page ul li a:hover{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+.portfolio-page button{
+   position: relative;
+   outline: 1px solid red !important;
+}
+
+
+
+
+/* SUB_NAVIGATION CLASS  outline: 1px solid red !important;*/
+.sub-navigation{
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sub-navigation li a{
+  color: #AAAAAA;
+  font-family: sans-serif;
+}
+
+.sub-navigation li a:hover{
+  color: #39CCCC;
+}
+
+.sub-navigation a{
+	color: #39CCCC;
+	text-decoration: none;
+	padding:0px;
+	font-size: 14px;
+  }
+
+.sub-navigation li:after{
+	  content: '/' ;
+	  padding:0 2px;
+    color:#39CCCC;
+}
+
+.sub-navigation li:last-child:after {
+ 	  content: none;
+}
+
+.sub-navigation a:hover{
+ 	  color: red;
+}
+
+/* SUB_NAVIGATION CLASS */
+hr{
+	border-top: 0.1px solid #111111;
+}
+
+
+
+
+
+
+
+/* Team Members  outline: 1px solid red !important;*/
+.team-members {
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.team-members h1{
+  margin-top:30px;
+  margin-bottom: 45px;
+  padding: 0px;
+  color: #AAAAAA;
+}
+
+.team-members h5 {
+      margin-top: 40px;
+}
+
+.team-members h5 a:hover{
+      color: #AAAAAA;
+}
+
+
+
+/* row2 of team-members */
+#id1 {
+  margin-top: px;
+}
+
+#id6{
+  margin-bottom: 200px;
+}
+
+.team-members .row2 {
+  margin-top: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+    .portfolio-page nav{
+        margin-left: 350px;
+
+    }
+}
