@@ -89,6 +89,7 @@ hr{
 .team-members {
   justify-content: center;
   margin-top: 100px;
+  margin-left: 35px;
 }
 
 .team-members h1{
