@@ -33,12 +33,18 @@ html {
 
 
 @media (min-width: 1200px) {
-    .container{
+    .container  {
         max-width: 460px;
+        align-items: center;
+
     }
 }
 
-
+.login-button a{
+  margin-top: 200px;
+  margin-right: 100px;
+  margin-left: 80px;
+}
 
 
 
