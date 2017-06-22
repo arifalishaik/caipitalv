@@ -34,16 +34,17 @@ html {
 
 @media (min-width: 1200px) {
     .container  {
-        max-width: 370px;
+        max-width: 350px;
         align-items: center;
 
     }
 }
 
-.login-button a{
+.login-button {
   margin-top: 200px;
   margin-right: 100px;
   margin-left: 80px;
+  margin-bottom: 100px;
 }
 
 
@@ -71,11 +72,9 @@ html {
 
 
 ul li a:hover{
-
     font-size: 1.2em;
     font-weight: bold;
-
-       }
+}
 
 .main-page button{
     position: relative;
