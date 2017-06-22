@@ -186,8 +186,12 @@ html {
 
 
 @media (min-width: 1200px) {
-    .portfolio-page nav{
-        margin-left: 350px;
+    .portfolio-page {
+
+        max-width: 300px;
+        
+        margin:auto;
+
 
     }
 }

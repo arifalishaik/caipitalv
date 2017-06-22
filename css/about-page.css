@@ -37,7 +37,7 @@ html {
 
 @media (min-width: 1200px) {
     .about-page{
-        max-width: 450px;
+        max-width: 300px;
         margin: auto;
 
     }
