@@ -12,6 +12,7 @@
     color: #39CCCC;
 }
 
+
 .portfolio-page nav{
     max-width: 400px;
 }
@@ -30,7 +31,7 @@
 
 .portfolio-page button{
    position: relative;
-   outline: 1px solid red !important;
+
 }
 
 
@@ -41,6 +42,10 @@
     margin: auto;
     text-align: center;
     padding-top: 10px;
+}
+
+.sub-navigation li{
+  
 }
 
 .sub-navigation li a{
@@ -55,7 +60,7 @@
 .sub-navigation a{
 	color: #39CCCC;
 	text-decoration: none;
-	padding:0px;
+	padding:10px;
 	font-size: 14px;
   }
 
@@ -189,7 +194,7 @@ html {
     .portfolio-page {
 
         max-width: 300px;
-        
+
         margin:auto;
 
 

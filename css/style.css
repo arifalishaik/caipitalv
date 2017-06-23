@@ -36,18 +36,24 @@ html {
     .container  {
         max-width: 350px;
         align-items: center;
+        margin-top: 0px;
 
     }
 }
 
 .login-button {
   margin-top: 200px;
-  margin-right: 100px;
-  margin-left: 80px;
-  margin-bottom: 100px;
+
+  margin-right: 30px;
+  padding: 0px;
+
+
 }
 
-
+.login-button ul li{
+  display: inline;
+  margin:10px;
+}
 
 
 
@@ -57,7 +63,7 @@ html {
 
 .main-page{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 170px;
 }
 
 .main-page #Capital{
@@ -71,7 +77,7 @@ html {
 }
 
 
-ul li a:hover{
+nav ul li a:hover{
     font-size: 1.2em;
     font-weight: bold;
 }
