@@ -28,7 +28,6 @@
 
 .portfolio-page button{
    position: relative;
-   outline: 1px solid red !important;
 }
 
 
@@ -183,10 +182,7 @@ html {
 
 @media (min-width: 1200px) {
     .portfolio-page {
-      max-width: 300px;
-
+      max-width: 333px;
       margin:auto;
-
-
     }
 }

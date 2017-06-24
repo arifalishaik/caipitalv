@@ -45,7 +45,7 @@
 }
 
 .sub-navigation li{
-  
+
 }
 
 .sub-navigation li a{
@@ -192,11 +192,7 @@ html {
 
 @media (min-width: 1200px) {
     .portfolio-page {
-
-        max-width: 300px;
-
+        max-width: 320px;
         margin:auto;
-
-
     }
 }
